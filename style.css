@@ -1,0 +1,80 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d28e8e;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        #college-header {
+            background-color: #488fc5;
+            color: rgb(182, 175, 175);
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 12px;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: rgb(199, 187, 187);
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #c89f4e;
+        }
+
+        .college-article {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 6px;
+        }
+
+        p::first-letter {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #305c7e;
+        }
+
+        a[href^="mailto:"] {
+            color: #ffcc66;
+            text-decoration: none;
+        }
+
+        video,
+        iframe {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+
+        audio {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #173b57;
+            color: white;
+            text-align: center;
+            padding: 15px;
+   }
